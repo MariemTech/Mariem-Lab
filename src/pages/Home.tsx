@@ -62,7 +62,7 @@ export default function Home() {
                 Ejecución en Data Analytics.
               </motion.h1>
               <motion.p variants={fadeIn} className="text-lg lg:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-                Soy Mariem Miliani. Combino mi background como <strong>Directora de Operaciones y de Sucursal</strong> con un stack técnico en <strong>Business Intelligence y Data Science</strong>. No solo diseño dashboards; comprendo la rentabilidad del negocio, los procesos y qué KPIs necesitan realmente los directivos para aportar valor.
+                Soy Mariem Miliani. Combino experiencia en <strong>operaciones, gestión comercial y banca</strong> con capacidades técnicas en <strong>Business Intelligence</strong>.
               </motion.p>
               <motion.div variants={fadeIn} className="flex flex-wrap gap-4">
                 <a href="#projects" className="px-6 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-sm">
@@ -316,9 +316,9 @@ export default function Home() {
             </div>
             
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas talento analítico para tu equipo?</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas conectar negocio, clientes y decisiones basadas en datos?</h2>
               <p className="text-lg text-slate-600 mb-8">
-                Estoy en búsqueda activa de un rol como Data Analyst / Business Analyst. Si crees que mi perfil técnico y visión estratégica encajan en tu empresa, me encantaría conversar.
+                Me interesa formar parte de proyectos donde pueda combinar visión de negocio, análisis y relación con cliente para ayudar a las empresas a entender mejor sus necesidades y transformarlas en soluciones reales.
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
