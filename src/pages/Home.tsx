@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { 
   BarChart3, 
   Database, 
@@ -68,10 +69,10 @@ export default function Home() {
                 <a href="#projects" className="px-6 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-sm">
                   Ver Proyectos
                 </a>
-                <a href="https://drive.google.com/file/d/1WkkX_BQebkVVo0PuRiq6hwpHpIpsle4Z/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm flex items-center gap-2">
-                  <ExternalLink size={18} className="text-brand-600" />
+                <Link to="/cv" className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm flex items-center gap-2">
+                  <span className="text-base">📄</span>
                   Descargar CV
-                </a>
+                </Link>
                 <a href="#contact" className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm">
                   Contactar
                 </a>
@@ -322,15 +323,13 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
-                <a 
-                  href="https://drive.google.com/file/d/1WkkX_BQebkVVo0PuRiq6hwpHpIpsle4Z/view?usp=drive_link" 
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  to="/cv" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-lg shadow-slate-200 w-full sm:w-auto"
                 >
-                  <ExternalLink size={18} className="text-brand-400" />
+                  <span className="text-base">📄</span>
                   Descargar CV
-                </a>
+                </Link>
                 <a 
                   href="mailto:mariemmiliani@gmail.com" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 transition-colors shadow-lg shadow-brand-200 w-full sm:w-auto"

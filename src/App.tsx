@@ -5,6 +5,7 @@ import Story from './pages/Story';
 import AvisoLegal from './pages/AvisoLegal';
 import Privacidad from './pages/Privacidad';
 import Cookies from './pages/Cookies';
+import CV from './pages/CV';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="aviso-legal" element={<AvisoLegal />} />
           <Route path="privacidad" element={<Privacidad />} />
           <Route path="cookies" element={<Cookies />} />
+          <Route path="cv" element={<CV />} />
         </Route>
       </Routes>
     </BrowserRouter>
