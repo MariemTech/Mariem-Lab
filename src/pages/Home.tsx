@@ -90,7 +90,7 @@ export default function Home() {
                 <img 
                   src="https://lh3.googleusercontent.com/pw/AP1GczMx58c35KsmKfZQNWO4xyFSOv536g7ctT1vynhRcgLDKEbx_xu4y1oVndJpm0tY8qJHMLgVgGezQ0VXOoumDTzGkL7JJxRbzJkZEP6lEurKk6_3nJ6Y=w1000" 
                   alt="Mariem Miliani" 
-                  className="w-full h-auto aspect-[4/5] object-cover"
+                  className="w-full h-auto aspect-[4/5] object-cover scale-[1.7] origin-[51%_36%] transition-all duration-300"
                 />
               </div>
               
