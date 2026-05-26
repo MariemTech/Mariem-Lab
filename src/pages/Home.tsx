@@ -69,10 +69,15 @@ export default function Home() {
                 <a href="#projects" className="px-6 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-sm">
                   Ver Proyectos
                 </a>
-                <Link to="/cv" className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm flex items-center gap-2">
+                <a 
+                  href="https://drive.google.com/file/d/1RD9eA59kHbbukZ-H-yVji3uZ8hQEEQdK/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm flex items-center gap-2"
+                >
                   <span className="text-base">📄</span>
                   Descargar CV
-                </Link>
+                </a>
                 <a href="#contact" className="px-6 py-3 rounded-lg bg-white text-slate-900 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm">
                   Contactar
                 </a>
@@ -350,13 +355,15 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
-                <Link 
-                  to="/cv" 
+                <a 
+                  href="https://drive.google.com/file/d/1RD9eA59kHbbukZ-H-yVji3uZ8hQEEQdK/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-lg shadow-slate-200 w-full sm:w-auto"
                 >
                   <span className="text-base">📄</span>
                   Descargar CV
-                </Link>
+                </a>
                 <a 
                   href="mailto:mariemmiliani@gmail.com" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 transition-colors shadow-lg shadow-brand-200 w-full sm:w-auto"

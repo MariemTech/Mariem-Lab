@@ -17,7 +17,13 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
+  interface NavLink {
+    name: string;
+    href: string;
+    target?: string;
+  }
+
+  const navLinks: NavLink[] = [
     { name: 'Inicio', href: '/' },
     { name: 'Trayectoria', href: '/historia' },
     { name: 'Proyectos', href: isHomePage ? '#projects' : '/#projects' },
