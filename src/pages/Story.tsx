@@ -113,7 +113,7 @@ export default function Story() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-brand-600 mt-1">✦</span>
-                    <span className="font-medium text-slate-800">Análisis de Ventas y Rentabilidad | Nexvia Retail</span>
+                    <span className="font-medium text-slate-800">Análisis de Ventas | Nexvia Retail</span>
                   </li>
                 </ul>
                 <p className="font-medium text-slate-900 pt-4">Con un objetivo claro: transformar datos en decisiones de negocio.</p>

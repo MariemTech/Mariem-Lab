@@ -68,8 +68,8 @@ export default function Header() {
             <span className="text-base md:text-lg font-display font-bold text-slate-900 leading-none group-hover:text-brand-600 transition-colors tracking-tight">
               Mariem Miliani
             </span>
-            <span className="text-[10px] md:text-[11px] font-medium text-slate-500 tracking-[0.15em] uppercase mt-1">
-              Data & Analytics
+            <span className="text-[10px] md:text-[11.5px] font-medium text-slate-500 tracking-[0.05em] md:tracking-[0.1em] uppercase mt-1">
+              Negocio · Operaciones · Análisis
             </span>
           </div>
         </Link>

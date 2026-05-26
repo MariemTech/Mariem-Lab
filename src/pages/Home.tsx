@@ -59,8 +59,8 @@ export default function Home() {
                 Perfil Híbrido: Negocio + Datos
               </motion.div>
               <motion.h1 variants={fadeIn} className="text-5xl lg:text-7xl font-display font-bold text-slate-900 leading-tight mb-6">
-                Visión <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-blue-600">Senior</span> en negocio.<br />
-                Ejecución en Data Analytics.
+                Experiencia operativa<br />
+                con <span className="text-brand-600">visión analítica</span>.
               </motion.h1>
               <motion.p variants={fadeIn} className="text-lg lg:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
                 Soy Mariem Miliani. Combino experiencia en <strong>operaciones, gestión comercial y banca</strong> con capacidades técnicas en <strong>Business Intelligence</strong>.
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-6">El puente entre los datos y la rentabilidad</h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Mi principal diferencial no son las herramientas que uso, sino mi criterio estratégico al aplicarlas. Con años de experiencia asumiendo la responsabilidad sobre la cuenta de resultados, dirigiendo equipos y gestionando operaciones directas, sé qué datos impactan verdaderamente en los objetivos de la empresa.
+              Mi principal diferencial es combinar visión de negocio y capacidad analítica para entender qué información aporta realmente valor a la toma de decisiones, la eficiencia operativa y la mejora de procesos.
             </p>
           </div>
 
@@ -151,26 +151,25 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-8 lg:gap-12 pt-4"
           >
             {/* Senior Business Column */}
-            <div className="bg-slate-50 p-8 md:p-10 rounded-3xl border border-slate-100 relative mt-6 md:mt-0">
-              <div className="absolute -top-4 right-8 px-5 py-1.5 bg-slate-800 text-white text-xs font-bold rounded-full tracking-widest uppercase shadow-sm">Senior</div>
+            <div className="bg-slate-50 p-8 md:p-10 rounded-3xl border border-slate-100 mt-6 md:mt-0">
               
               <div className="flex items-center gap-4 mb-8">
-                <div className="size-12 rounded-xl bg-slate-200 flex items-center justify-center">
-                  <Briefcase className="text-slate-700" size={24} />
+                <div className="size-12 rounded-xl bg-slate-200 flex items-center justify-center text-xl">
+                  💼
                 </div>
                 <h3 className="text-2xl font-display font-bold text-slate-900">Background de Negocio</h3>
               </div>
 
               <div className="space-y-6">
                 {[
-                  { title: 'Dirección de Operaciones', desc: '8 años liderando B2B/B2C, logística, control de costes y rentabilidad comercial.', icon: Target },
-                  { title: 'Dirección Bancaria', desc: '6 años gestionando sucursales, carteras de clientes, riesgo y auditorías.', icon: TrendingUp },
-                  { title: 'Visión de Negocio (Business)', desc: 'Orientación a la rentabilidad (cuenta de resultados), mejora continua de procesos internos y foco estratégico.', icon: LineChart },
-                  { title: 'Metodologías Ágiles', desc: 'Scrum Master Certified & Scrum Manager acreditada.', icon: Users },
+                  { title: 'Gestión Operativa', desc: 'Experiencia en coordinación de operaciones B2B/B2C, logística, control de costes y seguimiento de rentabilidad.', emoji: '⚙️' },
+                  { title: 'Experiencia Bancaria', desc: 'Gestión de clientes, operativa bancaria, control documental, riesgo y auditorías internas.', emoji: '🏦' },
+                  { title: 'Visión de Negocio', desc: 'Orientación a resultados, optimización de procesos y análisis enfocado en la mejora operativa.', emoji: '🎯' },
+                  { title: 'Metodologías y Organización', desc: 'Trabajo estructurado, coordinación de procesos y formación en metodologías ágiles.', emoji: '🧩' },
                 ].map((item, i) => (
                   <motion.div key={i} variants={fadeIn} className="flex gap-4">
-                    <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-slate-100">
-                      <item.icon className="text-slate-500" size={14} />
+                    <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-slate-100 text-sm">
+                      {item.emoji}
                     </div>
                     <div>
                       <h4 className="font-bold text-slate-900 leading-tight">{item.title}</h4>
@@ -182,26 +181,26 @@ export default function Home() {
             </div>
 
             {/* Technical Data Column */}
-            <div className="bg-brand-50 p-8 md:p-10 rounded-3xl border border-brand-100 relative mt-6 md:mt-0">
-              <div className="absolute -top-4 right-8 px-5 py-1.5 bg-brand-600 text-white text-xs font-bold rounded-full tracking-widest uppercase shadow-sm">Data & Tech Stack</div>
+            <div className="bg-brand-50 p-8 md:p-10 rounded-3xl border border-brand-100 mt-6 md:mt-0">
               
               <div className="flex items-center gap-4 mb-8">
-                <div className="size-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-brand-600">
-                  <Database size={24} />
+                <div className="size-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-brand-600 text-xl">
+                  📊
                 </div>
                 <h3 className="text-2xl font-display font-bold text-slate-900">Analítica de Datos</h3>
               </div>
 
               <div className="space-y-6">
                 {[
-                  { title: 'Business Intelligence', desc: 'Power BI, Tableau. Creación de dashboards enfocados a los KPIs directivos reales.', icon: BarChart3 },
-                  { title: 'Data Science & Modelado', desc: 'Python para el análisis de datos (Pandas, Scikit-learn) y Machine Learning.', icon: Code2 },
-                  { title: 'Bases de Datos', desc: 'Extracción, SQL y modelado orientado a la eficiente toma de decisiones.', icon: Database },
-                  { title: 'Eficiencia y Procesos', desc: 'AI Generativa aplicada, automatizaciones y Excel Financiero Avanzado.', icon: Terminal },
+                  { title: 'Analítica y Reporting', desc: 'Power BI, Tableau y Excel avanzado orientados al análisis de información, seguimiento de KPIs y apoyo a la toma de decisiones.', emoji: '📈' },
+                  { title: 'Business Intelligence', desc: 'Creación de dashboards y visualizaciones enfocadas en negocio, rentabilidad y control operativo.', emoji: '📊' },
+                  { title: 'Excel Avanzado y Gestión de Datos', desc: 'Tratamiento, organización y análisis de datos aplicados a procesos administrativos, comerciales y operativos.', emoji: '💾' },
+                  { title: 'Optimización de Procesos', desc: 'Análisis operativo, mejora continua y seguimiento de procesos para aumentar eficiencia y control.', emoji: '⚙️' },
+                  { title: 'Gestión y Análisis Operativo', desc: 'Experiencia en coordinación, control documental, seguimiento de incidencias y soporte a operaciones.', emoji: '💼' },
                 ].map((item, i) => (
                   <motion.div key={i} variants={fadeIn} className="flex gap-4">
-                    <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-brand-100">
-                      <item.icon className="text-brand-600" size={14} />
+                    <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-brand-100 text-sm">
+                      {item.emoji}
                     </div>
                     <div>
                       <h4 className="font-bold text-slate-900 leading-tight">{item.title}</h4>
@@ -210,6 +209,34 @@ export default function Home() {
                   </motion.div>
                 ))}
               </div>
+            </div>
+          </motion.div>
+
+          {/* Fortalezas operativas Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-12 max-w-3xl mx-auto bg-slate-50 border border-slate-100 rounded-3xl p-8 md:p-10"
+          >
+            <h3 className="text-xl font-display font-bold text-slate-900 mb-6 flex items-center gap-2">
+              <span className="text-brand-600 text-lg">✦</span> Fortalezas operativas
+            </h3>
+            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-4">
+              {[
+                'Gestión documental y operativa.',
+                'Coordinación y seguimiento de procesos.',
+                'Atención y soporte a clientes.',
+                'Excel y control de información.',
+                'Organización y priorización.',
+                'Mejora continua y análisis.',
+              ].map((bullet, idx) => (
+                <div key={idx} className="flex items-start gap-3 text-sm text-slate-600">
+                  <span className="text-brand-600 font-bold mt-0.5 text-xs">✦</span>
+                  <span>{bullet}</span>
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>
@@ -221,7 +248,7 @@ export default function Home() {
           <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="max-w-2xl">
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Casos de Estudio</h2>
-              <p className="text-slate-400 text-lg">Proyectos seleccionados donde apliqué metodologías de ciencia de datos para resolver problemas reales.</p>
+              <p className="text-slate-400 text-lg">Proyectos orientados al análisis de negocio, rentabilidad y apoyo a la toma de decisiones.</p>
             </div>
           </div>
 
@@ -229,8 +256,8 @@ export default function Home() {
             {[
               {
                 title: 'Análisis Inmobiliario para Inversión en Madrid',
-                description: 'Estudio de mercado utilizando fuentes públicas para identificar zonas con mayor rentabilidad de alquiler. Modelo de regresión para estimar precios óptimos.',
-                tags: ['Python', 'Geospatial Analysis', 'Tableau'],
+                description: 'Estudio de mercado utilizando fuentes públicas para identificar zonas con mayor rentabilidad de alquiler. Análisis de datos con Python y Tableau.',
+                tags: ['Python', 'Tableau'],
                 image: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&q=80&w=800',
                 links: [
                   { label: 'Dashboard Tableau', url: 'https://public.tableau.com/views/MadridAirbnbInversin/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link' },
@@ -249,9 +276,9 @@ export default function Home() {
                 ]
               },
               {
-                title: 'Análisis de Ventas y Rentabilidad | Nexvia Retail',
-                description: 'Creación de dashboards interactivos y modelos predictivos para identificar tendencias de venta estacionales y optimizar el margen por producto en tiendas retail.',
-                tags: ['Power BI', 'SQL', 'Forecasting'],
+                title: 'Análisis de Ventas | Nexvia Retail',
+                description: 'Análisis comercial basado en un escenario de ventas estable y recurrente, orientado a identificar patrones de rentabilidad, recurrencia y comportamiento de compra.',
+                tags: ['Power BI'],
                 image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800',
                 links: [
                   { label: 'Power BI', url: 'https://drive.google.com/file/d/1m7Eev74fFA_uAKg_H60D_OxCOt-_afrt/view?usp=drive_link' },
@@ -317,9 +344,9 @@ export default function Home() {
             </div>
             
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas conectar negocio, clientes y decisiones basadas en datos?</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas una profesional orientada a negocio, operaciones y análisis?</h2>
               <p className="text-lg text-slate-600 mb-8">
-                Me interesa formar parte de proyectos donde pueda combinar visión de negocio, análisis y relación con cliente para ayudar a las empresas a entender mejor sus necesidades y transformarlas en soluciones reales.
+                Combino experiencia en gestión, atención al cliente y operativa con capacidades analíticas y dominio de herramientas como Excel, Power BI y Tableau.
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
