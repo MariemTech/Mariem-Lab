@@ -142,9 +142,9 @@ export default function Home() {
       <section id="skills" className="py-24 bg-white border-y border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-6">El puente entre los datos y la rentabilidad</h2>
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-6">El puente entre el análisis y la gestión operativa</h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Mi principal diferencial es combinar visión de negocio y capacidad analítica para entender qué información aporta realmente valor a la toma de decisiones, la eficiencia operativa y la mejora de procesos.
+              Mi principal diferencial es combinar análisis, organización y visión operativa para identificar información útil, mejorar procesos y apoyar una gestión más eficiente.
             </p>
           </div>
 
