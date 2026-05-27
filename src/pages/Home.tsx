@@ -379,7 +379,7 @@ export default function Home() {
                   +34 629 60 79 89
                 </a>
                 <a 
-                  href="https://linkedin.com/in/mariem-miliani" 
+                  href="https://www.linkedin.com/in/mariemmiliani/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-50 text-slate-900 font-medium hover:bg-slate-100 transition-colors border border-slate-200 w-full sm:w-auto"

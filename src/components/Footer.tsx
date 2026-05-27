@@ -27,7 +27,7 @@ export default function Footer() {
             <Phone size={20} />
             <span className="sr-only">Teléfono</span>
           </a>
-          <a href="https://linkedin.com/in/mariem-miliani" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
+          <a href="https://www.linkedin.com/in/mariemmiliani/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
             <Linkedin size={20} />
             <span className="sr-only">LinkedIn</span>
           </a>

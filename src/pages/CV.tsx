@@ -89,8 +89,8 @@ export default function CV() {
               </li>
               <li className="flex items-center gap-2.5">
                 <span className="text-xs">🔗</span>
-                <a href="https://linkedin.com/in/mariem-miliani" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors break-all">
-                  linkedin.com/in/mariem-miliani
+                <a href="https://www.linkedin.com/in/mariemmiliani/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors break-all">
+                  linkedin.com/in/mariemmiliani
                 </a>
               </li>
             </ul>
