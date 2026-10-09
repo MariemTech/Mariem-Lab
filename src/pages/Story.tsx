@@ -82,13 +82,13 @@ export default function Story() {
                 <TrendingUp size={14} className="text-purple-600" />
               </div>
               
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">El "clic" hacia los datos</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">La evolución hacia herramientas avanzadas y datos</h2>
               <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
-                <p>Después entré en el mundo del marketing. Y ahí fue donde hice clic.</p>
-                <p>Me di cuenta de que, más allá de crear contenido, lo que realmente hacía era analizar: ver qué funcionaba, comparar empresas y detectar oportunidades.</p>
+                <p>A lo largo de los años en gestión administrativa y operativa, siempre sentí una inclinación natural por buscar formas más eficientes de trabajar.</p>
+                <p>Comencé a profundizar en herramientas más potentes: desde el dominio avanzado de Excel hasta la visualización en Power BI y la aplicación de Inteligencia Artificial para automatizar tareas repetitivas y clasificar documentación.</p>
                 <div className="bg-brand-600 text-white p-8 rounded-2xl my-8 shadow-lg shadow-brand-200">
                   <p className="text-xl font-medium mb-2">Ahí fue cuando todo encajó.</p>
-                  <p className="text-brand-100">Todo lo que había vivido tenía un sentido claro dentro del Business Analytics. No era empezar de cero, era dar forma a algo que ya formaba parte de mi manera de trabajar.</p>
+                  <p className="text-brand-100">No se trataba de cambiar de profesión, sino de potenciar el perfil administrativo con el mejor instrumental técnico: una profesional de la gestión y la administración sólida, rigurosa y altamente cualificada en el uso de herramientas de datos y productividad.</p>
                 </div>
               </div>
             </motion.div>
@@ -101,7 +101,7 @@ export default function Story() {
               
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Cómo trabajo hoy</h2>
               <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-                <p>Actualmente sigo desarrollando mi porfolio de cara a nuevas oportunidades profesionales, aplicando mi visión en proyectos como:</p>
+                <p>Aporto rigor documental, gestión ordenada de procesos y capacidad resolutiva, respaldada por el manejo práctico de herramientas en proyectos reales como:</p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <span className="text-brand-600 mt-1">✦</span>
@@ -116,7 +116,7 @@ export default function Story() {
                     <span className="font-medium text-slate-800">Análisis de Ventas | Nexvia Retail</span>
                   </li>
                 </ul>
-                <p className="font-medium text-slate-900 pt-4">Con un objetivo claro: transformar datos en decisiones de negocio.</p>
+                <p className="font-medium text-slate-900 pt-4">Con un objetivo claro: garantizar una gestión administrativa impecable, procesos ágiles y soporte operativo de alto nivel a la toma de decisiones.</p>
               </div>
             </motion.div>
           </div>
@@ -134,19 +134,19 @@ export default function Story() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-brand-400" />
-                <span>Visión de negocio</span>
+                <span>Rigor organizativo y control documental</span>
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-brand-400" />
-                <span>Capacidad analítica</span>
+                <span>Dominio de herramientas (Excel avanzado, Power BI, IA)</span>
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-brand-400" />
-                <span>Sentido práctico</span>
+                <span>Sentido práctico y visión operativa</span>
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-brand-400" />
-                <span>Orientación a resultados</span>
+                <span>Capacidad resolutiva y orientación a resultados</span>
               </li>
             </ul>
             <p className="mt-8 text-slate-300 italic">"Trabajo con implicación, criterio y foco en aportar valor desde el primer momento."</p>
