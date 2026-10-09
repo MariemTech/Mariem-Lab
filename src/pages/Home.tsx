@@ -56,14 +56,13 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
                 </span>
-                Perfil Híbrido: Negocio + Datos
+                Perfil Híbrido: Gestión · Datos · IA
               </motion.div>
-              <motion.h1 variants={fadeIn} className="text-5xl lg:text-7xl font-display font-bold text-slate-900 leading-tight mb-6">
-                Experiencia operativa<br />
-                con <span className="text-brand-600">visión analítica</span>.
+              <motion.h1 variants={fadeIn} className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-slate-900 leading-tight mb-6">
+                Gestión Administrativa, Operaciones y <span className="text-brand-600">Análisis de Negocio</span>
               </motion.h1>
               <motion.p variants={fadeIn} className="text-lg lg:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-                Soy Mariem Miliani. Combino experiencia en <strong>operaciones, gestión comercial y banca</strong> con capacidades técnicas en <strong>Business Intelligence</strong>.
+                Soy Mariem Miliani. Aporto <strong>criterio, rigor documental y visión operativa</strong>, combinados con análisis de datos (<strong>Excel avanzado, Power BI</strong>) e <strong>Inteligencia Artificial aplicada a la productividad</strong> y optimización de procesos.
               </motion.p>
               <motion.div variants={fadeIn} className="flex flex-wrap gap-4">
                 <a href="#projects" className="px-6 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors shadow-sm">
@@ -109,7 +108,7 @@ export default function Home() {
                   <BarChart3 className="text-brand-600 size-6" />
                 </div>
                 <div>
-                  <div className="text-sm font-bold text-slate-900">+45%</div>
+                  <div className="text-sm font-bold text-slate-900">100%</div>
                   <div className="text-xs text-slate-500">Eficiencia</div>
                 </div>
               </motion.div>
@@ -160,17 +159,17 @@ export default function Home() {
               
               <div className="flex items-center gap-4 mb-8">
                 <div className="size-12 rounded-xl bg-slate-200 flex items-center justify-center text-xl">
-                  💼
+                  📋
                 </div>
-                <h3 className="text-2xl font-display font-bold text-slate-900">Background de Negocio</h3>
+                <h3 className="text-2xl font-display font-bold text-slate-900">Gestión Administrativa y Operativa</h3>
               </div>
 
               <div className="space-y-6">
                 {[
-                  { title: 'Gestión Operativa', desc: 'Experiencia en coordinación de operaciones B2B/B2C, logística, control de costes y seguimiento de rentabilidad.', emoji: '⚙️' },
-                  { title: 'Experiencia Bancaria', desc: 'Gestión de clientes, operativa bancaria, control documental, riesgo y auditorías internas.', emoji: '🏦' },
-                  { title: 'Visión de Negocio', desc: 'Orientación a resultados, optimización de procesos y análisis enfocado en la mejora operativa.', emoji: '🎯' },
-                  { title: 'Metodologías y Organización', desc: 'Trabajo estructurado, coordinación de procesos y formación en metodologías ágiles.', emoji: '🧩' },
+                  { title: 'Control Documental y Procesos Societarios', desc: 'Supervisión y archivo de expedientes, contratos, trámites societarios o notariales y soporte en auditorías con máximo rigor y confidencialidad.', emoji: '📁' },
+                  { title: 'Operativa Bancaria y Conciliaciones', desc: 'Gestión y control de operativa bancaria, conciliación de cobros y pagos, cuadres de tesorería y seguimiento de cumplimiento normativo.', emoji: '🏦' },
+                  { title: 'Coordinación y Soporte Operativo', desc: 'Planificación de flujos de trabajo B2B/B2C, resolución eficaz de incidencias, interlocución con proveedores y soporte a clientes.', emoji: '⚙️' },
+                  { title: 'Organización y Criterio de Negocio', desc: 'Estructuración metódica de procedimientos, priorización ágil bajo demanda y visión global para asegurar la continuidad de las operaciones.', emoji: '🎯' },
                 ].map((item, i) => (
                   <motion.div key={i} variants={fadeIn} className="flex gap-4">
                     <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-slate-100 text-sm">
@@ -192,16 +191,16 @@ export default function Home() {
                 <div className="size-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-brand-600 text-xl">
                   📊
                 </div>
-                <h3 className="text-2xl font-display font-bold text-slate-900">Analítica de Datos</h3>
+                <h3 className="text-2xl font-display font-bold text-slate-900">Análisis de Datos e IA Aplicada</h3>
               </div>
 
               <div className="space-y-6">
                 {[
-                  { title: 'Analítica y Reporting', desc: 'Power BI, Tableau y Excel avanzado orientados al análisis de información, seguimiento de KPIs y apoyo a la toma de decisiones.', emoji: '📈' },
-                  { title: 'Business Intelligence', desc: 'Creación de dashboards y visualizaciones enfocadas en negocio, rentabilidad y control operativo.', emoji: '📊' },
-                  { title: 'Excel Avanzado y Gestión de Datos', desc: 'Tratamiento, organización y análisis de datos aplicados a procesos administrativos, comerciales y operativos.', emoji: '💾' },
-                  { title: 'Optimización de Procesos', desc: 'Análisis operativo, mejora continua y seguimiento de procesos para aumentar eficiencia y control.', emoji: '⚙️' },
-                  { title: 'Gestión y Análisis Operativo', desc: 'Experiencia en coordinación, control documental, seguimiento de incidencias y soporte a operaciones.', emoji: '💼' },
+                  { title: 'Excel Avanzado y Gestión de Datos', desc: 'Tratamiento y modelado de datos complejos, fórmulas avanzadas y tablas dinámicas para el control administrativo y operativo.', emoji: '💾' },
+                  { title: 'Power BI, Reporting y KPIs', desc: 'Diseño de dashboards interactivos para el seguimiento de indicadores comerciales, márgenes, rentabilidad y control de gestión.', emoji: '📈' },
+                  { title: 'Productividad e IA Aplicada', desc: 'Uso práctico de Inteligencia Artificial para extracción y estructuración de datos, síntesis de informes y redacción ejecutiva.', emoji: '🤖' },
+                  { title: 'Clasificación y Eficiencia Documental', desc: 'Herramientas inteligentes para categorización de expedientes, agilidad en consultas y eliminación de tareas repetitivas.', emoji: '⚡' },
+                  { title: 'Optimización y Soporte a Decisiones', desc: 'Identificación de patrones de rentabilidad y cuellos de botella para plantear mejoras operativas con impacto directo en el negocio.', emoji: '💡' },
                 ].map((item, i) => (
                   <motion.div key={i} variants={fadeIn} className="flex gap-4">
                     <div className="mt-1 size-8 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-brand-100 text-sm">
@@ -226,16 +225,16 @@ export default function Home() {
             className="mt-12 max-w-3xl mx-auto bg-slate-50 border border-slate-100 rounded-3xl p-8 md:p-10"
           >
             <h3 className="text-xl font-display font-bold text-slate-900 mb-6 flex items-center gap-2">
-              <span className="text-brand-600 text-lg">✦</span> Fortalezas operativas
+              <span className="text-brand-600 text-lg">✦</span> Competencias clave y valor diferencial
             </h3>
             <div className="grid sm:grid-cols-2 gap-x-8 gap-y-4">
               {[
-                'Gestión documental y operativa.',
-                'Coordinación y seguimiento de procesos.',
-                'Atención y soporte a clientes.',
-                'Excel y control de información.',
-                'Organización y priorización.',
-                'Mejora continua y análisis.',
+                'Control documental, societario y contractual.',
+                'Conciliación bancaria y cuadre operativo.',
+                'Excel avanzado, Power BI y diseño de KPIs.',
+                'IA aplicada a la productividad y extracción de datos.',
+                'Coordinación de procesos y gestión de incidencias.',
+                'Criterio empresarial, rigor y mejora continua.',
               ].map((bullet, idx) => (
                 <div key={idx} className="flex items-start gap-3 text-sm text-slate-600">
                   <span className="text-brand-600 font-bold mt-0.5 text-xs">✦</span>
@@ -253,7 +252,7 @@ export default function Home() {
           <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="max-w-2xl">
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Casos de Estudio</h2>
-              <p className="text-slate-400 text-lg">Proyectos orientados al análisis de negocio, rentabilidad y apoyo a la toma de decisiones.</p>
+              <p className="text-slate-400 text-lg">Proyectos aplicados: análisis cuantitativo, optimización de recursos y resolución de problemas de gestión.</p>
             </div>
           </div>
 
@@ -261,8 +260,8 @@ export default function Home() {
             {[
               {
                 title: 'Análisis Inmobiliario para Inversión en Madrid',
-                description: 'Estudio de mercado utilizando fuentes públicas para identificar zonas con mayor rentabilidad de alquiler. Análisis de datos con Python y Tableau.',
-                tags: ['Python', 'Tableau'],
+                description: 'Estudio de mercado y viabilidad para orientar la toma de decisiones en inversión inmobiliaria. Análisis de oferta y demanda con Python y Tableau para optimizar la asignación de recursos y maximizar la rentabilidad esperada.',
+                tags: ['Python', 'Tableau', 'Viabilidad de Inversión'],
                 image: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&q=80&w=800',
                 links: [
                   { label: 'Dashboard Tableau', url: 'https://public.tableau.com/views/MadridAirbnbInversin/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link' },
@@ -271,8 +270,8 @@ export default function Home() {
               },
               {
                 title: 'El Precio Óptimo No Es El Más Alto | Marie Gourmet',
-                description: 'Análisis de elasticidad precio-demanda para optimizar la estrategia de precios de un negocio B2B/B2C de comida sana a domicilio para oficinas. Incremento de rentabilidad mediante ajuste inteligente.',
-                tags: ['Excel M.', 'Pricing Strategy', 'Data Viz'],
+                description: 'Resolución de un problema de rentabilidad mediante análisis de elasticidad precio-demanda y costes operativos en comida corporativa B2B/B2C. Simulador en Excel y cuadro de mando para fundamentar decisiones estratégicas de pricing sin sacrificar volumen.',
+                tags: ['Excel Avanzado', 'Estrategia de Pricing', 'Power BI'],
                 image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
                 links: [
                   { label: 'Power BI', url: 'https://drive.google.com/file/d/1NDfzUWijsa7B3j7mlksS-V-cFmwcydOS/view?usp=drive_link' },
@@ -282,8 +281,8 @@ export default function Home() {
               },
               {
                 title: 'Análisis de Ventas | Nexvia Retail',
-                description: 'Análisis comercial basado en un escenario de ventas estable y recurrente, orientado a identificar patrones de rentabilidad, recurrencia y comportamiento de compra.',
-                tags: ['Power BI'],
+                description: 'Dashboard interactivo en Power BI para el control operativo e institucional sobre ventas recurrentes (~196K€ y 800 pedidos). Detección de patrones de compra y concentración de clientes para optimizar la gestión comercial y la planificación de recursos.',
+                tags: ['Power BI', 'Control Operativo', 'KPIs Comerciales'],
                 image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800',
                 links: [
                   { label: 'Power BI', url: 'https://drive.google.com/file/d/1m7Eev74fFA_uAKg_H60D_OxCOt-_afrt/view?usp=drive_link' },
@@ -349,9 +348,9 @@ export default function Home() {
             </div>
             
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas una profesional orientada a negocio, operaciones y análisis?</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-4">¿Buscas un perfil resolutivo para gestión, operaciones y análisis?</h2>
               <p className="text-lg text-slate-600 mb-8">
-                Combino experiencia en gestión, atención al cliente y operativa con capacidades analíticas y dominio de herramientas como Excel, Power BI y Tableau.
+                Aporto rigor administrativo, control documental y solvencia operativa, combinados con análisis de datos en Excel y Power BI e Inteligencia Artificial para maximizar la productividad y eficiencia de los procesos.
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
